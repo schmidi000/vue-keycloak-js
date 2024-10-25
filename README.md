@@ -2,9 +2,9 @@ vue-keycloak plugin
 -------------------
 
 [![Known Vulnerabilities](https://snyk.io/test/github/dsb-norge/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dsb-norge/vue-keycloak-js?targetFile=package.json)
-![npm](https://img.shields.io/npm/v/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![npm](https://img.shields.io/npm/dt/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![NPM](https://img.shields.io/npm/l/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
+![npm](https://img.shields.io/npm/v/@schmidi000/vue-keycloak-js.svg?style=flat-square)
+![npm](https://img.shields.io/npm/dt/@schmidi000/vue-keycloak-js.svg?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@schmidi000/vue-keycloak-js.svg?style=flat-square)
 
 ## Introduction
 
@@ -31,13 +31,13 @@ will be redirected back to the application and remain unauthenticated.
 ### Install using npm
 
 ```
-npm install @dsb-norge/vue-keycloak-js --save
+npm install @schmidi000/vue-keycloak-js --save
 ```
 
 ### Install using yarn
 
 ```
-yarn add @dsb-norge/vue-keycloak-js
+yarn add @schmidi000/vue-keycloak-js
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ yarn add @dsb-norge/vue-keycloak-js
 Tell Vue to install the plugin, and optionally pass in a JavaScript object for additional configuration.
 
 ```javascript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
+import VueKeyCloak from '@schmidi000/vue-keycloak-js'
 
 Vue.use(VueKeyCloak)
 
@@ -64,7 +64,7 @@ Vue.use(VueKeyCloak, options)
 Tell Vue to install the plugin, and optionally pass in a JavaScript object for additional configuration.
 
 ```javascript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
+import VueKeyCloak from '@schmidi000/vue-keycloak-js'
 
 createApp(App).use(VueKeycloak)
 
@@ -73,8 +73,8 @@ createApp(App).use(VueKeycloak, options)
 ```
 
 ```typescript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
-import { VueKeycloakInstance } from "@dsb-norge/vue-keycloak-js/dist/types";
+import VueKeyCloak from '@schmidi000/vue-keycloak-js'
+import { VueKeycloakInstance } from "@schmidi000/vue-keycloak-js/dist/types";
 
 createApp(App).use(VueKeycloak)
 

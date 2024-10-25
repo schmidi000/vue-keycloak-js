@@ -1,12 +1,15 @@
 vue-keycloak plugin
 -------------------
 
-[![Known Vulnerabilities](https://snyk.io/test/github/dsb-norge/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dsb-norge/vue-keycloak-js?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/schmidi000/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/schmidi000/vue-keycloak-js?targetFile=package.json)
 ![npm](https://img.shields.io/npm/v/@schmidi000/vue-keycloak-js.svg?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/@schmidi000/vue-keycloak-js.svg?style=flat-square)
 ![NPM](https://img.shields.io/npm/l/@schmidi000/vue-keycloak-js.svg?style=flat-square)
 
 ## Introduction
+
+This is a fork of the following repository:
+https://github.com/dsb-norge/vue-keycloak-js
 
 This plugin uses the official Keycloak JS adapter
 https://github.com/keycloak/keycloak/tree/main/js/libs/keycloak-js
@@ -375,15 +378,15 @@ Vue.use(VueKeyCloak, {
 
 View a complete example app, with router guards:
 
-[hello-keycloak](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/hello-keycloak)
+[hello-keycloak](https://github.com/schmidi000/vue-keycloak-js/tree/master/examples/hello-keycloak)
 
 Simple 'in component' secret displaying reactiveness:
 
-[simple_vue2](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/simple_vue2)
+[simple_vue2](https://github.com/schmidi000/vue-keycloak-js/tree/master/examples/simple_vue2)
 
 Typescript example with vue 3
 
-[typescript_vue3](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/typescript_vue3)
+[typescript_vue3](https://github.com/schmidi000/vue-keycloak-js/tree/master/examples/typescript_vue3)
 
 
 ## How to release
